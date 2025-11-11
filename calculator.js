@@ -176,4 +176,7 @@ After completing all TODOs, test your calculator:
 */
 import { add, subtract,multiply , divide } from "./utils/operations.js"
 import { parseNumbers, isValidOperation } from "./utils/parser.js";
-import _ from  lodash ;
+import _ from  "lodash" ;
+
+const operation = process.argv[2]
+const numbers = process.argv.slice(3);
